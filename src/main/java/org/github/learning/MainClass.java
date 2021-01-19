@@ -3,7 +3,6 @@ package org.github.learning;
 public class MainClass {
     private int id;
     private String name;
-    private String value;
     private String description;
 
     public int getId() {
@@ -20,14 +19,6 @@ public class MainClass {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getValue() {
-        return value;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
     }
 
     public String getDescription() {
